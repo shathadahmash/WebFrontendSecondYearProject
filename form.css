@@ -1,0 +1,62 @@
+:root{
+  --main-color: #4082f9;
+  --background-color:#efecec;
+  --grid-second: #fdf7e1;
+  --grid-first: #b7d1f2 ;
+  --input-bg: #f9f9f9;
+}
+
+@font-face {
+  font-family: "manrope-light";
+  src: url("fonts/Manrope/static/Manrope-Light.ttf");
+}
+
+@font-face {
+  font-family: "manrope-bold";
+  src: url("fonts/Manrope/static/Manrope-Bold.ttf");
+}
+
+@font-face {
+  font-family: "manrope-medium";
+  src: url("fonts/Manrope/static/Manrope-Medium.ttf");
+}
+
+/* -------------header section----------------*/
+*{
+  background-color: var(--background-color);
+}
+.header-container{
+  margin-top: 20px;
+  width: 100%;
+  display: grid;
+  row-gap: 0px;
+  height: 100px;
+  n
+  /* i should learn css positioning so well !!*/
+}
+
+.header-container
+.name
+{
+  font-family: manrope-medium;
+  grid-column: 1;
+  grid-row: 1;
+  margin: 0;
+  
+}
+
+.header-container
+.date
+{
+  grid-column: 1;
+  grid-row: 2;
+  margin: 0;
+
+}
+
+.header-container
+.search-bar
+{
+grid-row: 1;
+grid-column: 3;
+}
